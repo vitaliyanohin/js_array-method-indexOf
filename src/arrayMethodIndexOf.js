@@ -20,7 +20,7 @@ function applyCustomIndexOf() {
       index = this.length + fromIndex;
     }
 
-    for (index; index < this.length - 1; index++) {
+    for (index; index < this.length; index++) {
       if (this[index] !== undefined
         & isNaN(this[index])
         & isNaN(searchElement)) {
